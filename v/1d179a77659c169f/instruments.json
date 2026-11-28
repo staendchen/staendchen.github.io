@@ -1,0 +1,13 @@
+[
+  { "id": "flute", "name": "Flöte", "notations": ["C"], "numbers": ["1.", "2.", "3.", "4."] },
+  { "id": "accordion", "name": "Akkordeon", "notations": ["C"], "numbers": ["1.", "2.", "3.", "4."] },
+  { "id": "clarinet", "name": "Klarinette", "notations": ["B"], "numbers": ["1.", "2.", "3.", "4."] },
+  { "id": "trumpet", "name": "Trompete", "notations": ["B"], "numbers": ["1.", "2.", "3.", "4."] },
+  { "id": "flugelhorn", "name": "Flügelhorn", "notations": ["B"], "numbers": ["1.", "2.", "3.", "4."] },
+  { "id": "alto_sax", "name": "Altsax", "notations": ["Es"], "numbers": ["1.", "2.", "3.", "4."] },
+  { "id": "horn", "name": "Horn", "notations": ["F", "Es"], "numbers": ["1.", "2.", "3.", "4."] },
+  { "id": "tenor_horn", "name": "Tenorhorn", "notations": ["B"], "numbers": ["1.", "2.", "3.", "4."] },
+  { "id": "baritone", "name": "Bariton", "notations": ["B", "C Bass"], "numbers": ["1.", "2.", "3.", "4."] },
+  { "id": "trombone", "name": "Posaune", "notations": ["C Bass"], "numbers": ["1.", "2.", "3.", "4."] },
+  { "id": "tuba", "name": "Tuba", "notations": ["C Bass"], "numbers": ["Bass"] }
+]

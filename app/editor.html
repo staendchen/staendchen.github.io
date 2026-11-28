@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self'; img-src 'self' data: blob:; connect-src 'self' https://api.github.com; manifest-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#ffffff">
+<title>Paul's Ständchenmappe Redaktion</title>
+<link rel="icon" href="../icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../v/dd02d6e56b8cc062/app/editor.css">
+<script type="module" src="../v/dd02d6e56b8cc062/app/editor.mjs"></script>
+</head>
+<body>
+<section id="login" hidden>
+  <form class="box" id="login-form">
+    <h1>Redaktion</h1>
+    <p>Anmeldung für die Redaktion. Musiker brauchen nur ihren Link.</p>
+    <label for="login-password">Passwort</label>
+    <input class="field" id="login-password" type="password" autocomplete="current-password" autocapitalize="off" spellcheck="false" required>
+    <p class="note">Dieses Gerät bleibt 30 Tage angemeldet. Abmelden geht jederzeit im Menü.</p>
+    <div class="hint" id="login-hint"></div>
+    <button class="btn primary wide" type="submit" id="login-button">Anmelden</button>
+    <a class="back-link" href="../">Zur Seite der Musiker</a>
+  </form>
+</section>
+<section id="loading" hidden><div><p id="loading-text">Einen Moment …</p><div class="brow center" id="loading-actions" hidden><button class="btn" type="button" id="loading-retry">Nochmal versuchen</button><button class="btn danger" type="button" id="loading-logout">Abmelden</button></div></div></section>
+<div id="app" hidden>
+  <nav id="side"></nav>
+  <section id="list"></section>
+  <section id="detail"></section>
+  <nav id="tabs"></nav>
+</div>
+<button id="publish" type="button" hidden></button>
+<div id="dialog"></div>
+<div id="menu"></div>
+<div id="toast" role="status"></div>
+</body>
+</html>

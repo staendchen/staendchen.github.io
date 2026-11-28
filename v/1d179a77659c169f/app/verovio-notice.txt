@@ -1,0 +1,8 @@
+Verovio 6.4.1 (npm package verovio, file dist/verovio-toolkit-wasm.js), licensed under LGPL-3.0-only.
+Source: https://github.com/rism-digital/verovio
+License: https://www.gnu.org/licenses/lgpl-3.0.html
+
+Leipzig music font, as embedded by Verovio 6.4.1 in its SVG output (leipzig.woff2, unchanged bytes).
+leipzig-glyphs.json holds the outlines of the same font (units per em and, per code point, advance width and path), read with fontTools SVGPathPen.
+Copyright Etienne Darbellay, Jean-François Marti, Laurent Pugin. Licensed under the SIL Open Font License 1.1.
+License: https://openfontlicense.org
